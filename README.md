@@ -34,7 +34,6 @@ Notion을 이용해 이미지, 파일 등을 공유하며 협업
    
 > ### **1. 메인페이지**
 > 
-
 ![main](https://user-images.githubusercontent.com/125852574/229419223-0bce6592-a302-4f93-98d7-ceab8cc3d0fc.png)
    
 * 로그인   <br>
@@ -44,13 +43,11 @@ Notion을 이용해 이미지, 파일 등을 공유하며 협업
 <br>
    
 > ### **2. 회원가입**
-
 * MAIL API를 이용한 메일 인증 기능   <br>
 * 카카오 주소 API를 이용한 도로명 주소 검색 기능   <br>
 <br>
 
 > ### **3. 제품 상세**
-   
 ![prod](https://user-images.githubusercontent.com/125852574/229419926-3ab8682a-d9c3-4f79-a6c6-c1c61a6ba403.png)
    
 * 수량 선택  <br>
@@ -59,7 +56,6 @@ Notion을 이용해 이미지, 파일 등을 공유하며 협업
 <br>
 
 > ### **5. 장바구니**
-   
 ![cart](https://user-images.githubusercontent.com/125852574/229419325-52cf412a-737e-43f1-a26f-506a3ac203ce.png)   
 
 * 장바구니에서 수량 선택 가능  <br>
@@ -69,7 +65,6 @@ Notion을 이용해 이미지, 파일 등을 공유하며 협업
 <br>
 
 > ### **6. 마이페이지**
-   
 ![mypage](https://user-images.githubusercontent.com/125852574/229419345-43294159-920c-4ad7-a717-434e0ee1ac6f.png)
    
 * 주문한 제품 확인 가능  <br>
@@ -77,7 +72,6 @@ Notion을 이용해 이미지, 파일 등을 공유하며 협업
 <br>
 
 > ### **7. 관리자메뉴**
-   
 ![admin](https://user-images.githubusercontent.com/125852574/229419412-e646ee2d-7f99-4daa-8a49-f69c8d617b8b.png)
    
 * 상품관리/주문관리/회원관리 기능   <br>
@@ -85,10 +79,10 @@ Notion을 이용해 이미지, 파일 등을 공유하며 협업
 <br>
 
 > ### **8. 후기 작성**
-   
 ![review](https://user-images.githubusercontent.com/125852574/229419426-f95b1b5f-c856-4d63-a31c-20de6ef6045d.png)
    
-* 별점 선택 가능   <br>
+* 별점 기능   <br>
+* 원하는 상품 리뷰 검색 기능   <br>
 <br>
 
    

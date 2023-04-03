@@ -1,15 +1,15 @@
 # 오늘의 꽃 쇼핑몰 웹 팀 프로젝트
-![main](https://user-images.githubusercontent.com/125852574/229418838-47e11728-add5-473f-a18c-8bead6690822.png)
-   
-      
-> ## 🥛 목적   
+
+> ## 🌿  목적   
 온라인 꽃 판매를 위한 쇼핑몰
 <br>
 <br>
+
 > ## 🌿 개발 동기   
-MZ세대의 플랜테리어, 반려식물 등의 수요로 화훼시장 성장의 가능성을 찾아 꽃판매 쇼핑몰을 개발
+앞으로 주축 세대가 될 MZ세대의 플랜테리어, 반려식물 등의 수요로 화훼시장 성장의 가능성을 찾아 꽃판매 쇼핑몰을 개발
 <br>
 <br>
+
 > ## 🌿개발 과정   
 요구사항 분석 : 요구사항을 분석하여 문서화   
 계획 : 요구사항 분석 기반으로 웹사이트의 전체 구조, 디자인, 기능 계획   
@@ -18,21 +18,23 @@ MZ세대의 플랜테리어, 반려식물 등의 수요로 화훼시장 성장�
 수정 : 구현한 기능을 병합하고 오류 수정, 코드 리팩터링, 추가 기능 구현
 <br>
 <br>
-> ##🌿 주요 개발 환경   
+> ## 🌿 개발 환경   
 Java, Jsp, HTML, JavaScript, Oracle Database, Mybatis, Ajax, CSS, SpringBoot
 <br>
 <br>
 > ## 🌿형상관리   
 Git, Github를 이용해 코드 수정사항 공유   
 Notion을 이용해 이미지, 파일 등을 공유하며 협업
-***
+<br>
 <br>
    
-# 🌹주요 기능 소개🌹 <br>
+# 🌹주요 기능 소개🌹 
+<br>
 <br>   
    
 > ### **1. 메인페이지**
-<br>
+> 
+
 ![main](https://user-images.githubusercontent.com/125852574/229419223-0bce6592-a302-4f93-98d7-ceab8cc3d0fc.png)
    
 * 로그인   <br>
@@ -42,15 +44,14 @@ Notion을 이용해 이미지, 파일 등을 공유하며 협업
 <br>
    
 > ### **2. 회원가입**
-   
-![회원가입](https://user-images.githubusercontent.com/125838349/227253567-b1eb170a-ed2f-423c-9a85-8fbef5b3dd5f.PNG)
-   
+
+* MAIL API를 이용한 메일 인증 기능   <br>
 * 카카오 주소 API를 이용한 도로명 주소 검색 기능   <br>
 <br>
 
 > ### **3. 제품 상세**
    
-![main](https://user-images.githubusercontent.com/125852574/229419304-9cdafcbf-7d9c-4dc8-9ddf-01c28a046bd8.png)
+![prod](https://user-images.githubusercontent.com/125852574/229419926-3ab8682a-d9c3-4f79-a6c6-c1c61a6ba403.png)
    
 * 수량 선택  <br>
 * 장바구니에 담기 기능 <br>

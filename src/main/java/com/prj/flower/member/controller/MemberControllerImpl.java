@@ -193,8 +193,8 @@ public class MemberControllerImpl extends BaseController implements MemberContro
 			
 			// 메일 관련 정보
 	        String host = "smtp.naver.com";
-	        final String username = "kkjk6310";       //네이버 이메일 주소중 @ naver.com앞주소만 기재합니다.
-	        final String password = "anwlroekfl00";   //네이버 이메일 비밀번호를 기재합니다.
+	        final String username = "test1111";       //네이버 이메일 주소중 @ naver.com앞주소만 기재합니다.
+	        final String password = "test1111";   //네이버 이메일 비밀번호를 기재합니다.
 	        int port=465;
 	        
 	        // 메일 내용

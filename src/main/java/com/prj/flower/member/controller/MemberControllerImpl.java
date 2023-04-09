@@ -221,7 +221,7 @@ public class MemberControllerImpl extends BaseController implements MemberContro
 	        session.setDebug(true); //for debug
 	          
 	        Message mimeMessage = new MimeMessage(session);
-	        mimeMessage.setFrom(new InternetAddress("kkjk6310@naver.com"));
+	        mimeMessage.setFrom(new InternetAddress("test11110@naver.com"));
 	        mimeMessage.setRecipient(Message.RecipientType.TO, new InternetAddress(recipient));
 	        mimeMessage.setSubject(subject);
 //	        mimeMessage.setText(body);

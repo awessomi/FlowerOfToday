@@ -86,7 +86,7 @@ public class OrderControllerImpl extends BaseController implements OrderControll
 		Map cartMap = (Map) session.getAttribute("cartMap");
 		List myOrderList = new ArrayList<OrderVO>();
 
-		List<GoodsVO> myGoodsList = (List<GoodsVO>) cartMap.get("myGoodsList");
+		List<GoodsVO> myGoodsList = (List<GoodsVO>)cartMap.get("myGoodsList");
 		MemberVO memberVO = (MemberVO) session.getAttribute("memberInfo");
 
 		for (int i = 0; i < cart_goods_qty.length; i++) {
@@ -178,7 +178,7 @@ public class OrderControllerImpl extends BaseController implements OrderControll
 		
 		int newPoint = orderService.updatePoint(map);
 		
-			memberVO.setMember_point(newPoint);
+		  memberVO.setMember_point(newPoint);
 		  System.out.println("내 포인트 : "+memberVO.getMember_point());
 		  session.setAttribute("orderer",memberVO);
 		 

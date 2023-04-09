@@ -472,15 +472,10 @@
 		imagePopup('open');
 	}
 	
-	
 	var IMP = window.IMP;
 	IMP.init('imp64286002');
 	
-	
-	
 	function fn_process_pay_order() {
-	
-		
 
 		//값빼오기
 		//배송정보
@@ -1087,10 +1082,6 @@ function fn_point() {
 			</div>
 	
 
-		
-
-
-
 
 <p class="fs-3 "><i class="bi bi-gift"></i>&nbsp;결제하기</p>
 
@@ -1114,8 +1105,6 @@ function fn_point() {
 							value="${total_order_goods_qty}" />
 						</th>
 						<!-- 총 상품 수 -->
-
-
 						<c:choose>
 							<c:when test="${total_order_price >=100000}">
 								<td>
@@ -1295,7 +1284,7 @@ function fn_point() {
 			<a class="btn btn-outline-dark btn-md"
 				href="${contextPath}/main/main.do" role="button">쇼핑계속하기</a>
 				 --%>
-									<button type="button" name="btn_process_pay_order"
+		<button type="button" name="btn_process_pay_order"
 				class="btn btn-dark btn-md" onClick="fn_process_pay_order()" style="background-color:#BEACC4; border-color:white; ">결제하기</button>
 			<a class="btn btn-dark btn-md"
 				href="${contextPath}/main/main.do" role="button" style="background-color:#BEACC4; border-color:white; ">쇼핑계속하기</a>

@@ -46,7 +46,9 @@ margin-bottom: 3px;
 }
 </style>
 <script type="text/javascript">
+
 var totalqty=0;
+
 function calcGoodsPrice(bookPrice,obj,index){
 	var totalPrice,final_total_price,totalNum,deliveryPrice;
 	var goods_qty=document.getElementById("cart_goods_qty"+index);
@@ -67,14 +69,11 @@ function calcGoodsPrice(bookPrice,obj,index){
 	var product_price=Number(goods_qty.value*bookPrice);
 
 	
-	
 	if(obj.checked==true){
 		//체크버튼 눌렀을때
 		totalNum=Number(h_totalNum.value)+Number(goods_qty.value);//상품 총 갯수
 		totalPrice=Number(h_totalPrice.value)+Number(goods_qty.value*bookPrice);//상품 총금액
-		
-		
-		
+				
 	}else{
 		//체크버튼 해제
 	
@@ -108,7 +107,6 @@ function calcGoodsPrice(bookPrice,obj,index){
 	h_totalPrice.value=totalPrice;
 }
 	
-
 
 function modify_cart_qty(goods_id,bookPrice,index){
 	console.log(index);
@@ -158,7 +156,6 @@ function modify_cart_qty(goods_id,bookPrice,index){
 			    listView.innerHTML = html;
 			    /* listView2.innerHTML = html2; */
 			   /*  console.log(document.getElementById("h_totalGoodsNum").value); */
-				
 				
 			   
 				
@@ -327,9 +324,7 @@ function fn_order_all_cart_goods(){
 				    <c:when test="${ empty myCartList }">
 
 				    <tr>
-				       <th colspan="5">
-<%-- 				       <img style="height: 200px;" src="${contextPath}/resources/image/cart_empty.png" class="rounded mx-auto d-block w-30" > --%>
-				   
+				       <th colspan="5">				   
 				       </th>
 				      
 				     </tr>
@@ -340,6 +335,7 @@ function fn_order_all_cart_goods(){
 					<tr>
 					 <form name="frm_order_all_cart">
 					 <c:forEach var="item" items="${myGoodsList }" varStatus="cnt">
+					 
 					 <c:set var="cart_goods_qty" value="${myCartList[cnt.count-1].cart_goods_qty}" />
 				     <c:set var="cart_id" value="${myCartList[cnt.count-1].cart_id}" />
 				     

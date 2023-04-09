@@ -10,6 +10,7 @@
 <script src="http://dmaps.daum.net/map_js_init/postcode.v2.js"></script>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Noto+Sans+KR&family=Poor+Story&family=Shadows+Into+Light&display=swap');
+
 .memberContainer{
 	   display: flex;
        justify-content: center;
@@ -121,16 +122,12 @@ function fn_overlapped(){
 function fn_mailCheck(){
 	var _email = $('#em1').val();
 	 _email += $('#em2').val();
-	 
 	
 	 if(_email==''){
 	   	 alert("email을 입력하세요");
 	   	 return;
 	    }
 	 
-	 
-	 
-	
 	    $.ajax({
 	        type:"post",
 	        async:false,  
@@ -142,7 +139,6 @@ function fn_mailCheck(){
 	          show("E.C");
 	        	alert('인증번호가 전송되었습니다.');
 	        	hide('inputEmail');
-	          
 	          	
 	        },
 	        error:function(data,textStatus){
@@ -156,7 +152,6 @@ function fn_mailCheck(){
  
 }
 
-
 function emcheck(){
 	
 	var emailCheck = $('#emailCheck').val();
@@ -168,21 +163,13 @@ function emcheck(){
 	}else{
 		hide('E.C');
 		gck.innerHTML="인증이 완료되었습니다.";
-		
-		
-		
-		
+
 	}
 		
-		
-	
-	
-	
 } 
 
 
-	 
-	 function show(elementId) {
+function show(elementId) {
 	 var element =document.getElementById(elementId);
 	 if(element) {
 	  element.style.display = '';
